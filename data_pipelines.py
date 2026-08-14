@@ -21,4 +21,5 @@ print("delhi done")
 
 data_for_model = process_data
 print("process data")
-##model_used = create_model(delhi_processed)
+model_used = create_model(data_for_model)
+print("model_used")
