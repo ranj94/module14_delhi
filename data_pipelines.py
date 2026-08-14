@@ -19,4 +19,6 @@ if __name__ == "__main__":
 
 print("delhi done")
 
+data_for_model = process_data
+print("process data")
 ##model_used = create_model(delhi_processed)
