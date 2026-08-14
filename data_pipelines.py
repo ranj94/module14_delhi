@@ -12,7 +12,7 @@ def main():
 def process_data():
     df_delhi = extract_data()
     delhi_processed = transform_data(df_delhi)
-    return delhi_processed
+    ##return delhi_processed
 
 if __name__ == "__main__":
     main()
@@ -23,8 +23,8 @@ data_for_model = process_data
 print("process data")
 print(data_for_model)
 
-df_delhi = extract_data()
-delhi_processed = transform_data(df_delhi)
-print(delhi_processed)
+#df_delhi = extract_data()
+#delhi_processed = transform_data(df_delhi)
+#print(delhi_processed)
 ##model_used = create_model(data_for_model)
 print("model_used")
