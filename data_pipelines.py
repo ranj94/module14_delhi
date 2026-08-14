@@ -28,4 +28,7 @@ print(data_for_model)
 delhi_processed = transform_data(extract_data())
 print(delhi_processed)
 model_used = create_model(delhi_processed)
-print("model_used")
+print("model_created + tested")
+
+forcasted = forecast(model_used, "2022-01-01", "2022-12-31")
+print(forcasted)
