@@ -19,7 +19,7 @@ def transform_data(delhi_df):
     #### to csv
 
     base_dir = Path(__file__).resolve().parent.parent
-    out_dir = base_dir / "module14_delhi" / "data" / "processed"
+    out_dir = base_dir / "module14_delhi_v2" / "data" / "processed"
     ##"C:\Users\ranji\OneDrive\Documents\module14_delhi\dehli_assessment.ipynb"
     out_dir.mkdir(parents=True, exist_ok=True)
     csv_path = out_dir / "delhi_processed_data.csv"
