@@ -2,6 +2,7 @@ from extract import extract_data
 from transform import transform_data
 from load import load_data
 from model import create_model
+from use_model import forecast
 
 def main():
     df_delhi = extract_data()
