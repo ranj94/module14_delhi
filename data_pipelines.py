@@ -22,5 +22,8 @@ print("delhi done")
 data_for_model = process_data
 print("process data")
 print(data_for_model)
+
+df_delhi = extract_data()
+print(df_delhi)
 ##model_used = create_model(data_for_model)
 print("model_used")
