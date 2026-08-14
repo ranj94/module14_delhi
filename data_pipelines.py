@@ -33,3 +33,4 @@ forcasted = forecast(model_used, "2022-01-01", "2022-12-31")
 ##print(forcasted)
 
 print(pd.DataFrame(forcasted).head())
+print(pd.DataFrame(delhi_processed).head())
